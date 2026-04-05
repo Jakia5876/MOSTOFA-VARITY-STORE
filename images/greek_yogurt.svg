@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="65%">
+      <stop offset="0%" style="stop-color:#f3e5f5"/>
+      <stop offset="100%" style="stop-color:#e1bee7"/>
+    </radialGradient>
+    <radialGradient id="yogurt" cx="50%" cy="40%">
+      <stop offset="0%" style="stop-color:#fafafa"/>
+      <stop offset="100%" style="stop-color:#f5f5f5"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg)"/>
+  <ellipse cx="200" cy="330" rx="80" ry="14" fill="#7b1fa215"/>
+  <!-- Cup -->
+  <path d="M130,170 L140,310 Q140,325 170,325 L230,325 Q260,325 260,310 L270,170 Z" fill="#fff" stroke="#ce93d8" stroke-width="1.5"/>
+  <!-- Yogurt surface -->
+  <ellipse cx="200" cy="170" rx="70" ry="20" fill="url(#yogurt)" stroke="#ce93d8" stroke-width="1"/>
+  <!-- Yogurt swirl -->
+  <path d="M175,168 Q190,160 200,170 Q210,180 225,170" fill="none" stroke="#e1bee7" stroke-width="2" opacity="0.5"/>
+  <!-- Purple band label -->
+  <rect x="135" y="220" width="130" height="70" fill="#7b1fa2" opacity="0.9" rx="2"/>
+  <text x="200" y="248" text-anchor="middle" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#fff">GREEK</text>
+  <text x="200" y="270" text-anchor="middle" font-family="Georgia, serif" font-size="16" font-weight="bold" fill="#fff">YOGURT</text>
+  <text x="200" y="285" text-anchor="middle" font-family="Georgia, serif" font-size="8" fill="#e1bee7">Natural • Creamy</text>
+  <!-- Fruit garnish -->
+  <circle cx="190" cy="165" r="5" fill="#e91e63" opacity="0.7"/>
+  <circle cx="210" cy="162" r="4" fill="#c62828" opacity="0.6"/>
+  <circle cx="200" cy="158" r="3" fill="#4caf50" opacity="0.5"/>
+</svg>

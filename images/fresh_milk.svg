@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="65%">
+      <stop offset="0%" style="stop-color:#e3f2fd"/>
+      <stop offset="100%" style="stop-color:#bbdefb"/>
+    </radialGradient>
+    <linearGradient id="milk" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#fafafa"/>
+      <stop offset="100%" style="stop-color:#f5f5f5"/>
+    </linearGradient>
+    <linearGradient id="carton" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#e3f2fd"/>
+      <stop offset="40%" style="stop-color:#fff"/>
+      <stop offset="100%" style="stop-color:#e3f2fd"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg)"/>
+  <ellipse cx="200" cy="345" rx="55" ry="10" fill="#1565c015"/>
+  <!-- Carton body -->
+  <rect x="145" y="130" width="110" height="210" rx="6" fill="url(#carton)" stroke="#90caf9" stroke-width="1.5"/>
+  <!-- Top fold -->
+  <polygon points="145,130 200,95 255,130" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/>
+  <line x1="200" y1="95" x2="200" y2="130" stroke="#90caf9" stroke-width="1"/>
+  <!-- Blue band -->
+  <rect x="145" y="180" width="110" height="80" fill="#1976d2" opacity="0.9"/>
+  <!-- Label text -->
+  <text x="200" y="210" text-anchor="middle" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#fff">FRESH</text>
+  <text x="200" y="235" text-anchor="middle" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#fff">MILK</text>
+  <text x="200" y="252" text-anchor="middle" font-family="Georgia, serif" font-size="9" fill="#bbdefb">Full Cream • 1 Litre</text>
+  <!-- Splash icon -->
+  <circle cx="200" cy="300" r="18" fill="#fff" opacity="0.5"/>
+  <path d="M192,300 Q196,285 200,300 Q204,285 208,300" fill="none" stroke="#1976d2" stroke-width="1.5"/>
+  <!-- Cap -->
+  <rect x="190" y="92" width="20" height="10" rx="4" fill="#1565c0"/>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="65%">
+      <stop offset="0%" style="stop-color:#fff8e1"/>
+      <stop offset="100%" style="stop-color:#ffe0b2"/>
+    </radialGradient>
+    <radialGradient id="ghee">
+      <stop offset="0%" style="stop-color:#ffd54f"/>
+      <stop offset="100%" style="stop-color:#ffb300"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg)"/>
+  <ellipse cx="200" cy="340" rx="65" ry="12" fill="#00000012"/>
+  <!-- Container -->
+  <path d="M140,175 L140,300 Q140,325 170,325 L230,325 Q260,325 260,300 L260,175 Z" fill="#fff" stroke="#ffe082" stroke-width="2"/>
+  <!-- Ghee inside -->
+  <rect x="145" y="185" width="110" height="135" fill="url(#ghee)" opacity="0.75" rx="2"/>
+  <!-- Lid -->
+  <rect x="135" y="155" width="130" height="25" rx="10" fill="#ffa000"/>
+  <rect x="170" y="145" width="60" height="15" rx="6" fill="#e65100"/>
+  <!-- Label -->
+  <rect x="152" y="210" width="96" height="85" rx="5" fill="#ffffffdd"/>
+  <text x="200" y="235" text-anchor="middle" font-family="Georgia, serif" font-size="11" font-weight="bold" fill="#e65100">DESI COW</text>
+  <text x="200" y="258" text-anchor="middle" font-family="Georgia, serif" font-size="16" font-weight="bold" fill="#bf360c">GHEE</text>
+  <line x1="165" y1="268" x2="235" y2="268" stroke="#ffa000" stroke-width="1"/>
+  <text x="200" y="285" text-anchor="middle" font-family="Georgia, serif" font-size="8" fill="#ff8f00">100% Pure</text>
+</svg>

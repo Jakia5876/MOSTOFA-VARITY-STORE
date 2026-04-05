@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" style="stop-color:#ffebee"/>
+      <stop offset="100%" style="stop-color:#ffcdd2"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg)"/>
+  <ellipse cx="200" cy="345" rx="65" ry="12" fill="#e5393520"/>
+  <!-- Bottle -->
+  <path d="M155,160 L155,310 Q155,335 180,335 L220,335 Q245,335 245,310 L245,160 Z" fill="#e53935" opacity="0.95"/>
+  <!-- Neck -->
+  <rect x="183" y="105" width="34" height="60" rx="4" fill="#c62828"/>
+  <!-- Cap -->
+  <rect x="178" y="88" width="44" height="22" rx="8" fill="#fff"/>
+  <rect x="178" y="98" width="44" height="6" rx="2" fill="#e53935"/>
+  <!-- Label -->
+  <rect x="162" y="200" width="76" height="90" rx="5" fill="#ffffffee"/>
+  <text x="200" y="225" text-anchor="middle" font-family="Georgia, serif" font-size="10" font-weight="bold" fill="#b71c1c">TOMATO</text>
+  <text x="200" y="245" text-anchor="middle" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#c62828">KETCHUP</text>
+  <line x1="172" y1="255" x2="228" y2="255" stroke="#e53935" stroke-width="1"/>
+  <text x="200" y="272" text-anchor="middle" font-family="Georgia, serif" font-size="8" fill="#e57373">Premium Quality</text>
+  <!-- Shine -->
+  <rect x="159" y="165" width="7" height="165" rx="3" fill="#ffffff18"/>
+  <!-- Tomato icon -->
+  <circle cx="200" cy="175" r="12" fill="#ff5722" opacity="0.7"/>
+  <path d="M195,165 Q200,158 205,165" stroke="#4caf50" stroke-width="2" fill="none"/>
+</svg>

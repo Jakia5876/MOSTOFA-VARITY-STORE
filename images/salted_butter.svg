@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="65%">
+      <stop offset="0%" style="stop-color:#fff8e1"/>
+      <stop offset="100%" style="stop-color:#ffecb3"/>
+    </radialGradient>
+    <linearGradient id="butter" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffe082"/>
+      <stop offset="50%" style="stop-color:#ffd54f"/>
+      <stop offset="100%" style="stop-color:#ffca28"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg)"/>
+  <ellipse cx="200" cy="310" rx="100" ry="18" fill="#ffa00015"/>
+  <!-- Butter block -->
+  <rect x="120" y="200" width="160" height="80" rx="6" fill="url(#butter)" stroke="#ffb300" stroke-width="1"/>
+  <!-- Top face -->
+  <polygon points="120,200 140,175 300,175 280,200" fill="#ffe082"/>
+  <!-- Side face -->
+  <polygon points="280,200 300,175 300,255 280,280" fill="#ffc107" opacity="0.7"/>
+  <!-- Wrapper -->
+  <rect x="115" y="215" width="170" height="50" fill="#1565c0" opacity="0.15" rx="2"/>
+  <!-- Label on wrapper -->
+  <rect x="140" y="220" width="120" height="40" rx="4" fill="#1565c0dd"/>
+  <text x="200" y="243" text-anchor="middle" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#fff">SALTED</text>
+  <text x="200" y="258" text-anchor="middle" font-family="Georgia, serif" font-size="10" fill="#bbdefb">BUTTER</text>
+  <!-- Butter curl on top -->
+  <path d="M180,185 Q190,170 200,185 Q210,170 220,185" fill="#ffe082" stroke="#ffc107" stroke-width="1"/>
+  <!-- Salt crystals -->
+  <circle cx="155" cy="195" r="1.5" fill="#fff" opacity="0.6"/>
+  <circle cx="245" cy="192" r="1" fill="#fff" opacity="0.5"/>
+  <circle cx="200" cy="190" r="1.5" fill="#fff" opacity="0.4"/>
+</svg>
