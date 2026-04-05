@@ -17,8 +17,8 @@
     --gradient-bg: linear-gradient(135deg, #f8f6f0 0%, #ffffff 100%);
     
     /* Typography */
-    --font-heading: 'Outfit', sans-serif;
-    --font-body: 'Inter', sans-serif;
+    --font-heading: 'Outfit', 'Noto Sans Bengali', sans-serif;
+    --font-body: 'Noto Sans Bengali', 'Inter', sans-serif;
     
     /* Spacing & Utilities */
     --transition-fast: 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);

@@ -201,7 +201,7 @@ document.addEventListener('DOMContentLoaded', () => {
             
             // Visual feedback
             const originalText = btn.innerText;
-            btn.innerText = 'Added!';
+            btn.innerText = 'যোগ হয়েছে!';
             btn.style.background = '#2ecc71';
             btn.style.color = 'white';
             btn.style.borderColor = '#2ecc71';
